@@ -28,7 +28,7 @@ header,
 
 .press h5,
 .featured a,
-#main h4     {
+.picture h4     {
   font-size: .8rem;
 }
 
@@ -85,11 +85,11 @@ header a {
   margin-top: 5px;
 }
 
-#main {
+.picture {
   height: 40vh;
 }
 
-#main {
+.picture {
   background-image: url("http://www.anderssonwise.com/images/projects/1000/anderssonwise-id16-224-1000.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -165,14 +165,18 @@ header a {
   }
 
   .title{
-    display: none;
-    /*position: absolute;
-    top: 350px;
-    left: 50px;*/
+    position: absolute;
+    top: 320px;
+    left: 50px;
+    background: none;
   }
 
-  #main {
+  .picture {
     height: 400px;
+  }
+
+  .featured {
+    display: none;
   }
 
 }
