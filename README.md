@@ -20,7 +20,7 @@ _View it [here](https://oskarradon.github.io/responsive-code-review/) on GitHub 
 
 ## Technologies Used
 
-_Just CSS and HTML!_
+_Just CSS and HTML! Although I'd really like to try implementing flex box instead of floats, [for example](https://stackoverflow.com/questions/30587086/implementing-a-mondrian-pattern-using-flexbox)._
 
 ### License
 
