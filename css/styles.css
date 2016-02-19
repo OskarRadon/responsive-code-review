@@ -48,7 +48,7 @@ header nav {
 
 header nav ul {
   list-style: none;
-  padding-left: 0px;
+  padding: 0px;
   margin: 0px;
 }
 
@@ -159,7 +159,7 @@ header a {
     background: none;
   }
 
-  header nav ul li {
+  header nav a {
     display: block;
     line-height: 1rem;
   }
