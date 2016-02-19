@@ -147,6 +147,7 @@ header a {
 
   body {
     padding: 0px;
+    background: white;
   }
 
   header {
@@ -181,7 +182,7 @@ header a {
   }
 
   .picture {
-    height: 50vh;
+    height: 65vh;
     margin-bottom: 2.5vh;
   }
 
@@ -190,17 +191,35 @@ header a {
   }
 
   .press, .about {
-    min-height: 48vh;
+    min-height: 32.5vh;
+    margin-bottom: 0px;
   }
 
   .press {
     float: left;
     width: 49%;
+    background: rgb(5, 30, 0);
+    color: white;
+    padding: 20px;
+  }
+
+  .press h5 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .press h5:first-of-type {
+    font-family: sans-serif;
+    font-size: .7rem;
   }
 
   .about {
     float:right;
     width: 49%;
+    background: black;
+    color: rgb(222, 222, 222);
+    padding: 40px 40px 0px 40px;
   }
 
 }
