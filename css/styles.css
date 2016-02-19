@@ -18,13 +18,18 @@ body {
   color: white;
 }
 
-  /*HEADER*/
-
-header {
-  margin: 0;
-  padding: 0px;
+header,
+.press,
+.about,
+.featured {
   background-color: white;
   color: black;
+}
+
+.press h5,
+.featured a,
+#main h4 {
+  font-size: .8rem;
 }
 
 header h1 {
@@ -58,19 +63,11 @@ header a {
 
 #main h4 {
   font-family: sans-serif;
-  font-size: .8rem;
   margin-top: 5px;
 }
 
 #main img {
   width: 100%;
-}
-
-.press,
-.about,
-.featured {
-  background-color: white;
-  color: black;
 }
 
 .featured {
@@ -79,8 +76,6 @@ header a {
 
 .featured a {
   text-decoration: none;
-  /*color: black;*/
-  font-size: .8rem;
   padding-left: 22px;
   margin: 0px;
 }
@@ -91,7 +86,6 @@ header a {
 
 .press h5 {
   padding-left: 22px;
-  font-size: .8rem;
   font-weight: normal;
   margin: 0px;
 }
