@@ -64,24 +64,35 @@ header a {
 
   /*MAIN DIV*/
 
-#main,
+.featured,
 .press {
   margin-bottom: 15px;
 }
 
-#main h2 {
+.title {
+  background-color: black;
+}
+
+
+.title h2 {
   font-size: 1.1rem;
   margin-bottom: 0;
   font-weight: normal;
 }
 
-#main h4 {
+.title h4 {
   font-family: sans-serif;
   margin-top: 5px;
 }
 
-#main img {
-  width: 100%;
+#main {
+  height: 40vh;
+}
+
+#main {
+  background-image: url("http://www.anderssonwise.com/images/projects/1000/anderssonwise-id16-224-1000.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .featured {
@@ -153,9 +164,15 @@ header a {
     line-height: 1rem;
   }
 
-  #main h2,
-  #main h4 {
-    postion: absolute;
-    margin:
+  .title{
+    display: none;
+    /*position: absolute;
+    top: 350px;
+    left: 50px;*/
   }
+
+  #main {
+    height: 400px;
+  }
+
 }
