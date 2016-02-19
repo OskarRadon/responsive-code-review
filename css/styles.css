@@ -143,7 +143,7 @@ header a {
 
   /*MEDIA QUERIES*/
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 
   body {
     padding: 0px;
@@ -224,16 +224,25 @@ header a {
   }
 }
 
-@media screen and (min-width:850px) {
+@media screen and (min-width:1000px) {
+
   .picture {
     height: 100vh;
-    width: 70vw;
+    width: 75vw;
     float: left;
+  }
+
+  .title {
+    margin-top: 35vh;
+  }
+
+  .press {
+    margin-bottom: 2vh;
   }
 
   .press, .about {
     float: right;
-    width: 20vw;
-    height: 40vh;
+    width: 22vw;
+    height: 49vh;
   }
 }
