@@ -32,6 +32,10 @@ header,
   font-size: .8rem;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
   /*HEADER*/
 
 header h1 {
@@ -150,8 +154,9 @@ header a {
   }
 
   header h1 {
-    font-size: .8rem;
+    font-size: 1rem;
     padding: 0px;
+    margin-bottom: 5px;
   }
 
   header nav {
@@ -161,7 +166,7 @@ header a {
 
   header nav a {
     display: block;
-    line-height: 1rem;
+    line-height: 1.1rem;
   }
 
   .title{
