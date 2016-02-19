@@ -45,9 +45,15 @@ header a {
   margin-right: 10px;
 }
 
+#main,
+.press {
+  margin-bottom: 15px;
+}
+
 #main h2 {
   font-size: 1.1rem;
   margin-bottom: 0;
+  font-weight: normal;
 }
 
 #main h4 {
@@ -60,19 +66,50 @@ header a {
   width: 100%;
 }
 
+.press,
+.about,
 .featured {
   background-color: white;
   color: black;
+}
+
+.featured {
   padding: 10px 0;
 }
 
 .featured a {
   text-decoration: none;
-  color: black;
+  /*color: black;*/
   font-size: .8rem;
   padding-left: 22px;
   margin: 0px;
 }
+
+.press {
+  padding: 10px 0;
+}
+
+.press h5 {
+  padding-left: 22px;
+  font-size: .8rem;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.press h5:first-of-type {
+  padding-bottom: 3px;
+}
+
+.about {
+  padding: 15px 22px;
+}
+
+.about p {
+  font-size: .9rem;
+  margin: 0px;
+  line-height: 1.5rem;
+}
+
 /*#main, article, header {
   margin: 15px;
 }*/
